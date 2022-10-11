@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-nikola",
+  "version": "1.0.0",
+  "description": "Nikola's ESLint and Prettier Config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikolaM-Dev/eslint-config-nikola.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "lint",
+    "nikola",
+    "prettier",
+    "typescript"
+  ],
+  "author": "Juan David Merchan Torres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NikolaM-Dev/eslint-config-nikola/issues"
+  },
+  "homepage": "https://github.com/NikolaM-Dev/eslint-config-nikola#readme"
+}
