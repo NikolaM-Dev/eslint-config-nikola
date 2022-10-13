@@ -5,9 +5,8 @@ module.exports = {
     jest: true,
     node: true,
   },
-  parserOptions: {
-    sourceType: 'module',
-  },
+  parser: '@babel/eslint-parser',
+  parserOptions: { requireConfigFile: false },
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   plugins: ['import', 'simple-import-sort', 'unused-imports'],
   rules: {
