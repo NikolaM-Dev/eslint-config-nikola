@@ -284,6 +284,7 @@ module.exports = {
 				sourceType: 'module',
 			},
 
+			// TODO: Add rules
 			rules: {},
 		},
 	],
