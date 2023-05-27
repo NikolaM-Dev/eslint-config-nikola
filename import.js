@@ -1,3 +1,4 @@
+// TODO: Add import plugin
 module.exports = {
   plugins: ['simple-import-sort', 'unused-imports'],
   rules: {
