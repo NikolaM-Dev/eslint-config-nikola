@@ -7,6 +7,7 @@ module.exports = {
     node: true,
   },
   extends: ['eslint:recommended'],
+  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   rules: {
     // Possible problems
     'array-callback-return': ['error', { checkForEach: true }],
