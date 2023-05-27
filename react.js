@@ -4,7 +4,7 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
   ],
-  plugins: ['react'],
+  plugins: ['react-refresh'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
