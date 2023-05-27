@@ -16,7 +16,6 @@ module.exports = {
     },
   },
   rules: {
-    'react/self-closing-comp': 'error',
     'react/jsx-sort-props': [
       'warn',
       {
@@ -26,6 +25,9 @@ module.exports = {
         reservedFirst: true,
       },
     ],
+    'react/self-closing-comp': 'error',
+
+    'react-refresh/only-export-components': 'warn',
   },
   overrides: [
     {
