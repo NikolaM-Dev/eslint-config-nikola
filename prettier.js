@@ -25,6 +25,9 @@ module.exports = {
         tabWidth: 2,
         trailingComma: 'all',
       },
+      {
+        usePrettierrc: false,
+      },
     ],
   },
 };
