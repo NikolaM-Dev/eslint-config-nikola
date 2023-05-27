@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "ESLint rules according to NikolaM-Dev's personal preference",
   "main": "index.js",
+  "publishConfig": {
+    "@NikolaM-Dev:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "test": "exit 0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.59.7",
